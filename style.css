@@ -12,19 +12,37 @@ img {
   border-radius: 50%;
 }
 
+figure {
+  margin: 0;
+}
+
 
 a {
+  color: inherit;
   text-decoration: none;
-  color: black;
+}
+
+a {
+  background:
+    linear-gradient(
+      to right,
+      rgb(255, 255, 255),
+      rgb(249, 249, 249)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
 }
 
 a:hover {
-  background-color: rgb(182, 180, 171);
-  transition: ease-in 1s;
-}
-
-a:any-link {
-  cursor: auto;
+  background-size: 0 3px, 100% 3px;
 }
 
 
@@ -84,7 +102,7 @@ ul li {
   padding-left: 0px;
 }
 
-#link-me {color: white; font-size: 15px; line-height: 15px; padding: 8px; border-radius: 22px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-alternates: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; text-transform: none; background-image: linear-gradient(to right, rgb(95, 106, 112) 0%, rgb(4, 5, 6) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 0px 0px 5px 0px; border: 2px solid rgb(97, 98, 99); display: inline-block;}
+#link-me {color: rgb(158, 157, 157); font-size: 15px; line-height: 15px; padding: 8px; border-radius: 22px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-alternates: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; text-transform: none; background-image: linear-gradient(to right, rgb(95, 106, 112) 0%, rgb(4, 5, 6) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 0px 0px 5px 0px; border: 2px solid rgb(97, 98, 99); display: inline-block;}
   #link-me:hover {background: #777474; }
     #link-me:active {background: #144E75; }
 
