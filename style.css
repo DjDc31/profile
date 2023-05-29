@@ -5,11 +5,13 @@ body {
 
 }
 
+
 img {
-  width: 17%;
+  width: 25%;
   height: auto;
   border-radius: 50%;
 }
+
 
 a {
   text-decoration: none;
@@ -18,16 +20,32 @@ a {
 
 a:hover {
   background-color: rgb(182, 180, 171);
+  transition: ease-in 1s;
 }
 
+a:any-link {
+  cursor: auto;
+}
+
+
 p {
+  text-align: center;
+}
+
+.list-puce {
+  width: 25%;
+  list-style-type: none;
   text-align: center;
 }
 
 ul{
   display : inline-block;
   margin :auto;
-  text-align:left;
+}
+
+ul li {
+    display: inline; /* affichage en ligne */
+    margin-right: 30px; /* marge de droite */
 }
 
 .container {
@@ -50,7 +68,7 @@ ul{
 .card-follow {
   text-align: center;
   border: 5px solid whitesmoke;
-  width: 200px;
+  width: 350px;
   padding: 10px;
   margin: auto;
   margin-top: 30px;
