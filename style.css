@@ -1,0 +1,92 @@
+body {
+  background-color: black;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+
+}
+
+img {
+  width: 17%;
+  height: auto;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  background-color: rgb(182, 180, 171);
+}
+
+p {
+  text-align: center;
+}
+
+ul{
+  display : inline-block;
+  margin :auto;
+  text-align:left;
+}
+
+.container {
+  border-radius: 5px;
+  margin: auto;
+  padding: 50px;
+}
+
+.card, .card-follow {
+  border: 10px solid whitesmoke;
+  border-radius: 5px;
+  padding: 50px;
+  margin: auto;
+  width: 500px;
+  box-shadow: 4px 4px 10px whitesmoke;
+  background-color: white;
+
+}
+
+.card-follow {
+  text-align: center;
+  border: 5px solid whitesmoke;
+  width: 200px;
+  padding: 10px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#link-me {color: white; font-size: 15px; line-height: 15px; padding: 8px; border-radius: 22px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-alternates: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; text-transform: none; background-image: linear-gradient(to right, rgb(95, 106, 112) 0%, rgb(4, 5, 6) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 0px 0px 5px 0px; border: 2px solid rgb(97, 98, 99); display: inline-block;}
+  #link-me:hover {background: #777474; }
+    #link-me:active {background: #144E75; }
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .card {
+    width: 400px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .card {
+    width: 200px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .card {
+    width: 100px;
+  }
+}
